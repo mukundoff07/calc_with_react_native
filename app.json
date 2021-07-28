@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "calc",
+    "slug": "calc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/calc_bg.png",
+    "splash": {
+      "image": "./app/assets/calc_bg.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/calc_bg.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.mukund_dev.calculator_app"
+    },
+    "web": {
+      "favicon": "./app/assets/calc_bg.png"
+    }
+  }
+}
